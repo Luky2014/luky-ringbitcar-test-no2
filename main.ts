@@ -60,7 +60,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 let right = 0
 let left = 0
 music.setVolume(60)
-music.playMelody("C5 - C5 C5 C5 - - - ", 260)
+music.playMelody("C5 - C5 C5 C5 - - - ", 300)
 RingbitCar.init_wheel(AnalogPin.P1, AnalogPin.P2)
 RingbitCar.running_distance(RingbitCar.Direction_run.forward, 10)
 basic.pause(1000)
